@@ -1,0 +1,117 @@
+/* Add this CSS code to your existing styles.css file */
+
+body{
+    background-color: rgb(103, 62, 62);
+}
+.quiz-container {
+    margin-left: 23%;
+position: relative;
+    margin-top: 24px;
+    width: 400px;
+    height: 400px;
+    background-color: #F5A623; /* Changed to a different color */
+    font-family: Arial, sans-serif; /* Specify a font family */
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+}
+
+.options-container {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    gap: 20px; /* Reduced the gap */
+}
+
+.option {
+    background-color: #3498db;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+
+.option:hover {
+    background-color: #1f77c7;
+}
+
+#next-button {
+    background-color: #27ae60;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-top: 12px;
+    position: absolute;
+right:80px;
+}
+#retake {
+    background-color: #27ae60;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-top: 12px;
+    position: absolute;
+align-items: center;
+margin-left: 30%;
+}
+#previous-button {
+    position: absolute;
+    background-color: #ae4427;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    left:20px;
+    transition: background-color 0.2s;
+    margin-top: 12px;
+}
+
+#next-button:hover {
+    background-color: #2ecc71;
+}
+#previous-button:hover{
+    background-color: #bd563a;
+
+}
+#result-text {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#percentage-text {
+    font-size: 16px;
+}
+
+
+.result {
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.result h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.result p {
+    font-size: 18px;
+    margin: 10px 0;
+}

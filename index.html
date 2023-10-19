@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz App</h1>
+        <div class="question-container">
+            <p id="question-text">Question 1: What is the capital of France?</p>
+        </div>
+        <div class="options-container">
+            <button class="option" id="option1">Option 1</button>
+            <button class="option" id="option2">Option 2</button>
+            <button class="option" id="option3">Option 3</button>
+            <button class="option" id="option4">Option 4</button>
+        </div>
+        <button id="next-button" class="next-button">Next</button>
+        <button id="previous-button" class="previous-button">Previous</button>
+
+        <div class="result-container">
+            <p id="result-text"></p>
+            <p id="percentage-text"></p>
+        </div>
+        <div class="result">
+            <p id="result-text"></p>
+            <p id="percentage-text"></p>
+            <div>
+              <button id="retake" style="display: none;" onclick="retake()">retake </button>  
+            </div>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
